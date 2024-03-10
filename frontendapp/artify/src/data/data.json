@@ -1,0 +1,182 @@
+[
+  {
+    "title": "The Flower Pot",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/836f9df469262e75695c56059b6d22bc.jpg",
+    "price": "₹2989",
+    "artist": "Kaleido Dazzle",
+    "type": "Photography"
+  },
+  {
+    "title": "The Third Eye",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/27ab732d2903d4dc5ab8db9d79338999.jpg",
+    "price": "₹3999",
+    "artist": "Octavia Palette",
+    "type": "ART"
+  },
+  {
+    "title": "Blue Bridge",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/5e7036d46ca534a819066b0e3f58039e.jpg",
+    "price": "₹5275",
+    "artist": "Amara Starwhisper",
+    "type": "ART"
+  },
+
+  {
+    "title":"Girl's Thoughts",
+    "url":"https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/722e34a21d52bd61d3e22afbcd790f69.jpg",
+    "price":"₹5275",
+    "artist":"Selene Frostbloom",
+    "type":"Art" 
+},
+
+
+  {
+    "title": "The Spring",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/3d5f532f4a47a30044e7333bffab625f.jpg",
+    "price": "₹4999",
+    "artist": "Jasper Skybrush",
+    "type": "ART"
+  },
+
+  {
+    "title": "Hibiscus",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/478d4f22a0d7ab798f4394af7c93cf62.jpg",
+    "price": "₹3999",
+    "artist": "Luna Serenade",
+    "type": "ART"
+  },
+  {
+    "title": "Bubble World",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/2c15a02523bf85e6884db61fc1b571aa.jpg",
+    "price": "₹3899",
+    "artist": "Kaleido Dazzle",
+    "type": "Photography"
+  },
+
+  {
+    "title": "Pebble",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/3d2c64ed52ed0a898f787ece8548f502.jpg",
+    "price": "₹5999",
+    "artist": "Leonardo Starglow",
+    "type": "Photography"
+  },
+  {
+    "title": "Lighting Leaf",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/441965fa193c59b0cc11cc0d23a7523c.jpgg",
+    "price": "₹4399",
+    "artist": "Apollo Vortex",
+    "type": "Photography"
+  },
+
+  {
+    "title": "Bridge of Destiny",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/5a1c514f524db175b063663c679b2188.jpg",
+    "price": "₹3999",
+    "artist": "Apollo Vortex",
+    "type": "Photography"
+  },
+  {
+    "title": "Camera Photography",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/c60fd9aff016d5dacc5e707ffbb29dc6.jpg",
+    "price": "₹3999",
+    "artist": "Tristan Lumière",
+    "type": "Photography"
+  },
+
+  {
+    "title": "The Peace",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/65d822a69a1b2d95d12e68849b32d4c8.jpg",
+    "price": "₹5999",
+    "artist": "Orion Dreamweaver",
+    "type": "Sculpture"
+  },
+
+  {
+    "title": "RadheKrishn",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/download%20(1).jpeg",
+    "price": "₹6559",
+    "artist": "Vega Starlight",
+    "type": "Sculpture"
+  },
+  {
+    "title": "Paris from Plane",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/e5d87ed08e5a5ce7dffcd766d18eef58.jpg",
+    "price": "₹4559",
+    "artist": "Vega Starlight",
+    "type": "Photography"
+  },
+  {
+    "title": "Cherry Blossom",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/ea6aeffeffa8a638673ebbb0a31c1e16.jpg",
+    "price": "₹4899",
+    "artist": "Lyra Moonshadow",
+    "type": "ART"
+  },
+  {
+    "title": "Camera Photography",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/c60fd9aff016d5dacc5e707ffbb29dc6.jpg",
+    "price": "₹3999",
+    "artist": "Tristan Lumière",
+    "type": "Photography"
+  },
+  {
+    "title": "Sunset",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/istockphoto-1159951855-612x612.jpg",
+    "price": "₹3999",
+    "artist": "Orion Dreamweaver",
+    "type": "Photography"
+  },
+  {
+    "title": "The Temple Beauty",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/istockphoto-508628776-612x612.jpg",
+    "price": "₹5999",
+    "artist": "Celestia Canvas",
+    "type": "Photography"
+  },
+
+  {
+    "title": "Self Esteem",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/download.jpeg",
+    "price": "₹5999",
+    "artist": "Nebula Whisper",
+    "type": "Sculpture"
+  },
+
+  {
+    "title": "The Water View",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/istockphoto-1304671291-612x612.jpg",
+    "price": "₹6999",
+    "artist": "Luna Serenade",
+    "type": "Photography"
+  },
+  {
+    "title": "Baby Elephant",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/431bcb4d1be3722ba22fcd7db1f8d114.jpg",
+    "price": "₹4499",
+    "artist": "Kaleido Dazzle",
+    "type": "Sculpture"
+  },
+  {
+    "title": "Mother's Love",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/8ba613b9222a878bda117cb61bd6e422.jpg",
+    "price": "₹5599",
+    "artist": "Miranda Quicksilver",
+    "type": "Sculpture"
+  },
+
+  {
+    "title": "Self Love",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/8f72539e378083060ff509d0851e9e38.jpg",
+    "price": "₹4559",
+    "artist": "Raphael Chromatica",
+    "type": "Sculpture"
+  },
+
+  {
+    "title": "Self Peace",
+    "url": "https://raw.githubusercontent.com/2200031191/SDP19-DATA/main/96da1f5c5df09e301a697751b66c0b66.jpg",
+    "price": "₹4459",
+    "artist": "Leonardo Starglow",
+    "type": "Sculpture"
+  }
+]
