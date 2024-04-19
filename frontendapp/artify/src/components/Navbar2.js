@@ -10,6 +10,7 @@ import Sculpture from "../pages/Sculpture";
 import Hero from "./Hero";
 import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
+import listItems from "../pages/listItems";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Shop", href: "/shop" },
@@ -132,6 +133,7 @@ export default function Navbar2() {
         <Route path="/sculpture" element={<Sculpture />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/listItems" element={<listItems />} />
       </Routes>
     </div>
   );

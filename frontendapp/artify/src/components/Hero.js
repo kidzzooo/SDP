@@ -71,7 +71,7 @@ export default function Example() {
           />
         </div>
       </div>
-      <div className="p-14 grid grid-cols-3">
+      <div className="p-14 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
       {
         data.length>0 && data.slice(0, 6).map((item) => {
           return (

@@ -21,6 +21,7 @@ import { Avatar, Typography } from "@material-tailwind/react";
 import { useNavigate } from "react-router-dom";
 import CardDetail from './CardDetail';
 import CheckoutForm from "../pages/CheckoutForm";
+import ListItems from './../pages/listItems';
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Shop", href: "/shop" },
@@ -154,6 +155,7 @@ export default function Navbar2() {
         <Route path="/sell" element={<Sell/>} />
         <Route path="/cards/:title" element={<CardDetail />} />
         <Route path="/checkout" element={<CheckoutForm/>} />
+        <Route path="/listItems" element={<ListItems/>} />
       </Routes>
     </div>
   );

@@ -14,6 +14,7 @@ import UserNavbar from "./components/UserNavbar";
 import Sell from "./pages/Sell";
 import CardDetail from "./components/CardDetail";
 import CheckoutForm from "./pages/CheckoutForm";
+import ListItems from "./pages/listItems";
 
 function App() {
   
@@ -32,6 +33,7 @@ function App() {
           <Route path="/sell" component={Sell} />
           <Route path="/card/:title" element={<CardDetail />} />
           <Route path='/checkout' component={CheckoutForm} />
+          <Route path='/listItems' component={ListItems} />
         </Routes>
       </Router>
     </div>
