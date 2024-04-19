@@ -2,6 +2,7 @@ const Product = require('../models/Product');
 const multer = require('multer');
 const path = require('path');
 const uploadImage = require('../upload');
+const fs = require('fs').promises;
 
 // Set up Multer storage
 const storage = multer.diskStorage({
@@ -40,6 +41,7 @@ const listItems = async (req, res) => {
                 description: description,
                 category: category,
             }).save();
+            await fs.unlink(req.file.path);
             
             res.status(201).json({ message: 'Product created successfully' });
         });
