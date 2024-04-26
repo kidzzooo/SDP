@@ -9,7 +9,7 @@ export default function Art() {
   }, []);
   return (
     <div className="p-5">
-      <div className="p-14 grid grid-cols-3">
+      <div className="p-14 grid gap-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         {data.length > 0 &&
           data
             .filter((item) => item.type === "ART")

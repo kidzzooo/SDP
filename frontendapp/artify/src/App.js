@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <UserNavbar />
+        <Navbar2/>
         <Routes>
           <Route path="/" exact component={Hero} />
           <Route path="/shop" component={Shop} />
@@ -33,7 +33,7 @@ function App() {
           <Route path="/sell" component={Sell} />
           <Route path="/card/:title" element={<CardDetail />} />
           <Route path='/checkout' component={CheckoutForm} />
-          <Route path='/listItems' component={ListItems} />
+          <Route path='/listitems' component={ListItems} />
         </Routes>
       </Router>
     </div>

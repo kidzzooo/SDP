@@ -1,23 +1,22 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import hero from "../bg.png";
 import Shop from "../pages/Shop";
 import { Link } from "react-router-dom";
 import arts from "../data/data.json";
 import Card from "./Card";
 
 export default function Example() {
-  const [data,setData] = useState([])
- 
+  const [data, setData] = useState([])
+
   useEffect(() => {
     setData(arts)
-  },[])
+  }, [])
   return (
     <div className="bg-white">
       <div
         className="relative isolate px-6 pt-14 lg:px-8"
         style={{
-          backgroundImage: `url(${hero})`,
+          backgroundImage: `url(https://images.unsplash.com/photo-1554147090-e1221a04a025?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -40,7 +39,8 @@ export default function Example() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Discover Art You Love
+
+              Explore the art that speaks to you.
             </h1>
             <p className="mt-6 text-lg leading-8 text-slate-200 font-bold">
               Your one stop for all the art.
@@ -72,21 +72,21 @@ export default function Example() {
         </div>
       </div>
       <div className="p-14 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
-      {
-        data.length>0 && data.slice(0, 6).map((item) => {
-          return (
-            <Link to={`/cards/${item.title}`} key={item.title}>
-            <Card
-              url={item.url}
-              title={item.title}
-              price={item.price}
-              artist = {item.artist}
-            />
-            </Link>
-          ) 
+        {
+          data.length > 0 && data.slice(0, 6).map((item) => {
+            return (
+              <Link to={`/cards/${item.title}`} key={item.title}>
+                <Card
+                  url={item.url}
+                  title={item.title}
+                  price={item.price}
+                  artist={item.artist}
+                />
+              </Link>
+            )
+          }
+          )
         }
-        )
-      }
       </div>
     </div>
   );

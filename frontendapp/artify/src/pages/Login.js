@@ -21,7 +21,7 @@ export default function Login() {
         email: email,
         password: password
       }
-      const response = await axios.post('http://localhost:2014/checkLogin',formData)
+      const response = await axios.post('http://localhost:2014/login',formData)
       if(response.data!= null){
         setMessage("Login successful! Redirecting to shop page...");
         setFlag(true)
@@ -87,7 +87,7 @@ export default function Login() {
             Login
           </button>
           <p className="block mt-4 font-sans text-base antialiased font-normal leading-relaxed text-center text-gray-700">
-            Dom't have an account?
+            Don't have an account?
             <Link to="/signup" className="font-medium text-gray-900">
               Sign Up
             </Link>

@@ -5,13 +5,13 @@ import axios from "axios";
 export default function SignUp() {
   const [message, setMessage] = useState("");
   const [flag, setFlag] = useState(false);
-  const [fullName, setFullName] = useState("");
-  const [email, setEmail] = useState("");
+  const [username,setUsername] = useState("");
+  const [email,setEmail] = useState("")
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
-  const updateName = (e) => {
-    setFullName(e.target.value);
-  };
+  const updateUserName= (e)=>{
+    setUsername(e.target.value)
+  }
   const updateEmail = (e) => {
     setEmail(e.target.value);
   };
@@ -23,7 +23,7 @@ export default function SignUp() {
     e.preventDefault();
     try {
       const formData = {
-        fullName: fullName,
+        username:username,
         email: email,
         password: password,
       };
@@ -35,14 +35,14 @@ export default function SignUp() {
         setMessage("Registration successful! Redirecting to login page...");
         setEmail("");
         setPassword("");
-        setFullName("");
+        setUsername("");
         setTimeout(() => {
           navigate('/login');
         }, 3000);
       }
       else{
         setMessage("Invalid Entry");
-        navigate('/register')
+        navigate('/signup')
       }
     } catch (e) {
       console.log(e.message);
@@ -71,13 +71,13 @@ export default function SignUp() {
         >
           <div className="flex flex-col gap-6 mb-1">
             <h6 className="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-blue-gray-900">
-              Your Name
+              Username
             </h6>
             <div className="relative h-11 w-full min-w-[200px]">
               <input
-                placeholder="John Doe"
-                value={fullName}
-                onChange={updateName}
+                placeholder="username"
+                value={username}
+                onChange={updateUserName}
                 required
                 className="peer h-full w-full rounded-md border border-blue-gray-200 border-t-transparent !border-t-blue-gray-200 bg-transparent px-3 py-3 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:!border-t-gray-900 focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
               />

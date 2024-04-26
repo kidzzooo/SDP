@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import logo from "../Artify.png";
 import Sell from "../pages/Sell";
 import {
   Link,
@@ -47,7 +46,7 @@ export default function Navbar2() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-9 w-auto" src={logo} alt="Artify Logo" />
+              <div className="text-lg font-bold text-white">Online Art Gallery</div>
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -105,8 +104,8 @@ export default function Navbar2() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img className="h- w-auto" src={logo} alt="" />
-              </a>
+                <div className="text-lg font-bold">Online Art Gallery</div>
+                </a>
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-gray-700"

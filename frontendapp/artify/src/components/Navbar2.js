@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import logo from "../Artify.png";
 import { Link, BrowserRouter as Router, Routes, Route,useLocation } from "react-router-dom";
 import Shop from "../pages/Shop";
 import Art from "../pages/Art";
@@ -10,7 +9,8 @@ import Sculpture from "../pages/Sculpture";
 import Hero from "./Hero";
 import Login from "../pages/Login";
 import SignUp from "../pages/SignUp";
-import listItems from "../pages/listItems";
+import ListItems from "../pages/listItems";
+import CardDetail from "./CardDetail";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Shop", href: "/shop" },
@@ -32,7 +32,8 @@ export default function Navbar2() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-9 w-auto" src={logo} alt="Artify Logo" />
+              <div className="text-lg font-bold ">Online Art Gallery</div>
+
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -82,7 +83,7 @@ export default function Navbar2() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img className="h- w-auto" src={logo} alt="" />
+                <div className="text-lg font-bold ">Online Art Gallery</div>
               </a>
               <button
                 type="button"
@@ -133,7 +134,9 @@ export default function Navbar2() {
         <Route path="/sculpture" element={<Sculpture />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/listItems" element={<listItems />} />
+        <Route path="/listitems" element={<ListItems />} />
+        <Route path="/cards/:title" element={<CardDetail />} />
+
       </Routes>
     </div>
   );
